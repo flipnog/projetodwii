@@ -12,7 +12,7 @@
     <main>
         <h1>FLIPEIXES - PEIXE É AQUI!</h1>
         <h1>Olá! Faça seu cadastro.</h1>
-        <form id="meuFormulario" action="conexao.php" method="post">
+        <form id="meuFormulario" action="cadastrar.php" method="post">
             <label for="nome">
                 <span>Nome</span>
                 <input type="text" id="nome" name="nome" placeholder="Digite o seu nome." required>
@@ -47,7 +47,7 @@
         </form>     
     </main>
     <section class="images">
-        <img src="assets/fish.svg" alt="Mobile">
+        <img src="assets/fish.svg" alt="imgpeixe">
         <div class="circle"></div>
     </section>
     </body>

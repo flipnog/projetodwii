@@ -22,9 +22,9 @@ if (isset($_POST['busca'])) {
 
 include "conexao.php";
 
-$sql = "SELECT * FROM produtos WHERE nome LIKE '%$consulta%' ";
+$sql = "SELECT * FROM dwii WHERE nome LIKE '%$consulta%' ";
 
-$dados = mysqli_query($conn, $sql);
+$dados = mysqli_query($conexao, $sql);
 ?>
     <div class="container">
         <div class="row">
@@ -63,21 +63,16 @@ $dados = mysqli_query($conn, $sql);
             <td>$senha</td>
             <td>$peixe</td>
             <td>$tipo</td>
-            <td width=150px>
-            <a href='editar.php?id=$id' class='btn btn-success btn-sm'>Editar produto</a>
-           
         </td>
     </tr>";
        }
      } else {
-    echo "Erro na consulta: " . mysqli_error($conn);
+    echo "Erro na consulta: " . mysqli_error($conexao);
    };
 
 ?>
-
   </tbody>
-</table>
-                             
+</table>                            
              <a href="index.php" class="btn btn-info">Voltar à loja</a>
             </div>
         </div>

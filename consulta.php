@@ -29,11 +29,12 @@ $dados = mysqli_query($conexao, $sql);
     <div class="container">
         <div class="row">
             <div class="col">
-              <h1>Pesquisar produtos</h1>
+              <center><h1>Cadastro Realizado com Sucesso!</h1></center><br>
+              <h2>Pesquise seus dados!</h2>
 
               <nav class="navbar navbar-light bg-light">
                   <form class="form-inline" href="consulta.php" method="POST">
-                     <input class="form-control mr-sm-2" type="search" placeholder="Nome do produto" name="busca" autofocus>
+                     <input class="form-control mr-sm-2" type="search" placeholder="Nome do usuário" name="busca" autofocus>
                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Consultar</button>
                   </form>
               </nav>

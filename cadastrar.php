@@ -12,12 +12,11 @@ echo $nome, $senha, $peixe, $tipo;
 $query = "INSERT INTO dwii (nome, senha, peixe, tipo) VALUES ('$nome', '$senha', '$peixe', '$tipo')";
 
 if (mysqli_query($conexao, $query)) {
-    echo "<br><center><b>CADASTRO REALIZADO COM SUCESSO!</b><br><br></center>";
+    echo "<br><center><b>CADASTRO REALIZADO COM SUCESSO!</b></center>";
     header("Location:consulta.php");
 } else {
     echo "Erro ao cadastrar: " . mysqli_error($conexao);
 }
-
 // Fechar a conexão com o banco de dados
 mysqli_close($conexao);
 ?>

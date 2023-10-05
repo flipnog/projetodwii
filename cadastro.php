@@ -42,7 +42,7 @@
             </label>
 
             <input type="submit" id="btnCadastrar" value="Cadastrar" id="button"><br>
-            <h3>Já fez login anteriormente? <a href="index.php" style="text-decoration:none">Acesse a loja.</a></h3>
+            <h3>Já fez login anteriormente? <a href="index.html" style="text-decoration:none">Acesse a loja.</a></h3>
             <h5>Desistiu de comprar peixe? <a href="https://www.youtube.com/shorts/83BbjXGtrbY" style="text-decoration:none">Clique aqui! :).</a></h5>
         </form>     
     </main>

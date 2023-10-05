@@ -74,7 +74,7 @@ $dados = mysqli_query($conexao, $sql);
 ?>
   </tbody>
 </table>                            
-             <a href="index.php" class="btn btn-info">Voltar à loja</a>
+             <a href="index.html" class="btn btn-info">Voltar à loja</a>
             </div>
         </div>
     </div>
